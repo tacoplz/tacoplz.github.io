@@ -6,32 +6,41 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "En",
+  firstName: "En Luna",
   middleName: "",
-  lastName: "Luna",
+  lastName: "",
   message: " Civil and passionate about engineering. ",
   icons: [
-    {
+    /*{
       image: "fa-github",
       url: "https://github.com/tacoplz",
+    }, */
+    {
+      image: "fas fa-envelope",
+      url: "mailto: cs106607@gmail.com",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/chris.stephan.1428",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/tacoplz/",
+      image: "fas fa-phone",
+      url: "tel: +1 (330) 340-1673",
     },
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/chris-stephan-pe-0ba702275/",
     },
+    /*{
+      image: "fa-facebook",
+      url: "https://www.facebook.com/chris.stephan.1428",
+    },*/
     {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/tacoplz/",
+    },
+    /*{
       image: "fa-twitter",
       url: "https://www.twitter.com/",
-    },
+    }, */
   ],
+  scheduleEventUrl: "https://calendar.google.com/calendar/u/0/r/eventedit?add=cs106607@gmail.com",
 };
 
 // ABOUT SECTION
@@ -48,14 +57,18 @@ const mainBody = {
 //     i.e resume: require("../editable-stuff/resume.pdf"),
 //         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
+// to add new objects ensure that you are adding the varible to app.js and calling it in aboutme.jsx
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/ChrisOkaClimb.heic"),
+  imageLink: require("../editable-stuff/ChrisIsrael.jpg"),
   imageSize: 375,
   message:
     "My name is Chris. I like engineering.",
   resume: "https://drive.google.com/file/d/1c9bzfmCowXKO0UGITxOGcNrjmbCu_b6D/view?usp=sharing",
+  //scheduleEventUrl: "https://calendar.google.com/calendar/u/0/r/eventedit?add=cs106607@gmail.com",
+  //The line below embeds my Google Calendar. 
+  // calendarUrl: "https://calendar.google.com/calendar/embed?src=cs106607%40gmail.com&ctz=America%2FDenver",
 };
 
 // PROJECTS SECTION
@@ -64,7 +77,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "tacoplz", //i.e."johnDoe12Gh"
   reposLength: 4,
@@ -79,12 +92,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/ChrisIsrael.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/ChrisIsrael.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -131,8 +144,8 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Employment and Education",
   data: [
     {
       role: 'Senior Engineer - City of Aurora',// Here Add Company Name
@@ -145,12 +158,13 @@ const experiences = {
       date: 'May 2014 – September 2015',
     },
     {
-      role: 'Graduate of Ohio Univerity, 2014 - Master of Science in Civil Engineering',
+      role: 'Master of Science in Civil Engineering',
       companylogo: require('../assets/img/ou logo.png'),
       date: 'May 2012 – May 2014',
+      
     },
     {
-      role: 'Graduate of Ohio Univerity, 2012 - Bachelor of Science in Civil Engineering',
+      role: 'Bachelor of Science in Civil Engineering',
       companylogo: require('../assets/img/ou logo.png'),
       date: 'September 2008 – May 2012',
     },

@@ -31,6 +31,7 @@ const Home = React.forwardRef((props, ref) => {
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
         icons={mainBody.icons}
+        scheduleEventUrl={mainBody.scheduleEventUrl}
         ref={ref}
       />
       {about.show && (
@@ -40,13 +41,10 @@ const Home = React.forwardRef((props, ref) => {
           link={about.imageLink}
           imgSize={about.imageSize}
           resume={about.resume}
+          calendarUrl={about.calendarUrl}
+          scheduleEventUrl={about.scheduleEventUrl}
         />
       )}
-      {
-        experiences.show && (
-          <Experience experiences={experiences}/>
-        )
-      }
       {repos.show && (
         <Project
           heading={repos.heading}
@@ -70,6 +68,11 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+      {
+        experiences.show && (
+          <Experience experiences={experiences}/>
+        )
+      }
       
     </>
   );

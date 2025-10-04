@@ -6,8 +6,8 @@ import { Jumbotron } from "./migration";
 const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
-
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+{/* Add var below to get meeting button scheduleEventUrl */}
+const AboutMe = ({ heading, message, link, imgSize, resume, calendarUrl, }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
   // https://stackoverflow.com/questions/55840294/how-to-fix-missing-dependency-warning-when-using-useeffect-react-hook
@@ -66,6 +66,40 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           )}
         </div>
       </div>
+      {/* Schedule Meeting Button */}
+      {/*
+      {scheduleEventUrl && (
+        <div className="container mt-5">
+          <p className="text-center mb-3">
+            <a
+              className="btn btn-primary btn-lg"
+              href={scheduleEventUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              role="button"
+            >
+              Schedule a Meeting
+            </a>
+          </p>
+        </div>
+      )}
+      */}
+      
+      {/* Google Calendar Embed */}
+      {calendarUrl && (
+        <div className="container mt-5">
+          <h3 className="text-center mb-4">My Calendar</h3>
+          <div className="calendar-responsive" style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
+            <iframe 
+              src={calendarUrl}
+              style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+              frameBorder="0" 
+              scrolling="no"
+              title="Google Calendar"
+            ></iframe>
+          </div>
+        </div>
+      )}
     </Jumbotron>
   );
 };

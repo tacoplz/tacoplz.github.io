@@ -4,7 +4,7 @@ import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message, icons, scheduleEventUrl, }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -38,6 +38,22 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
+          {/* Schedule Meeting Button */}
+          {scheduleEventUrl && (
+           <div className="container mt-5">
+             <p className="text-center mb-3">
+                <a
+                  className="btn btn-primary btn-lg"
+                  href={scheduleEventUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  role="button"
+               >
+                 Schedule a Meeting
+               </a>
+              </p>
+           </div>
+         )}
           <a
             className="btn btn-outline-light btn-lg "
             href="#aboutme"
