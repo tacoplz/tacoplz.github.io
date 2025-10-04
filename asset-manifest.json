@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6891a1d.css",
+    "main.js": "/static/js/main.81edca36.js",
+    "static/js/453.5cd421d3.chunk.js": "/static/js/453.5cd421d3.chunk.js",
+    "static/media/ChrisIsrael.jpg": "/static/media/ChrisIsrael.f6989a8cc50bd0f66650.jpg",
+    "static/media/ou logo.png": "/static/media/ou logo.cfe1c9f1f9440819d946.png",
+    "static/media/aurora-logo.png": "/static/media/aurora-logo.7eb35a0ecf62647feb0d.png",
+    "static/media/mannik.png": "/static/media/mannik.5f0c8803a3275b292063.png",
+    "index.html": "/index.html",
+    "main.d6891a1d.css.map": "/static/css/main.d6891a1d.css.map",
+    "main.81edca36.js.map": "/static/js/main.81edca36.js.map",
+    "453.5cd421d3.chunk.js.map": "/static/js/453.5cd421d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6891a1d.css",
+    "static/js/main.81edca36.js"
+  ]
+}
