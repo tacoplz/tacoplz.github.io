@@ -17,7 +17,7 @@ const mainBody = {
     }, */
     {
       image: "fas fa-envelope",
-      url: "mailto: cs106607@gmail.com",
+      url: "mailto: chris@en-luna.com",
     },
     {
       image: "fas fa-phone",
@@ -63,8 +63,11 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/ChrisIsrael.jpg"),
   imageSize: 375,
-  message:
-    "My name is Chris. I like engineering.",
+  message: [
+    "Hello, my name is Chris and I'm a civil engineer (PE) based out of Boulder, Colorado. I have been working as a transportation engineer for the past 10 years, focusing on construction management and grant administration. Prior to that, I was a design engineer, surveyor, and permit writer for solid waste facilities. I have a Master of Science in Civil Engineering with a dual focus in Water Resources and Environmental Engineering. I'm passionate about math, systems, processes, and learning—plus, you know, Colorado things like hiking, snowboarding, camping, and climbing.",
+    "I'm hoping to find my first contract! I'm really good at construction administration, grant administration, transportation project design, and creating bid packages. I like to challenge myself, so I spent the weekend learning React.js in order to build/deploy this webpage and host my custom email.",
+    "Thanks for dropping in. ✌️"
+  ],   
   resume: "https://drive.google.com/file/d/1c9bzfmCowXKO0UGITxOGcNrjmbCu_b6D/view?usp=sharing",
   //scheduleEventUrl: "https://calendar.google.com/calendar/u/0/r/eventedit?add=cs106607@gmail.com",
   //The line below embeds my Google Calendar. 
@@ -115,22 +118,22 @@ const skills = {
   hardSkills: [
     { name: "Construction Design Plans", value: 75 },
     { name: "Construction Administration", value: 95 },
-    { name: "Grant Administration", value: 80 },
+    { name: "Grant Administration", value: 95 },
     { name: "Construction Management", value: 85 },
-    { name: "Local Agency Contracting", value: 90 },
+    { name: "Local Agency Procurement & Solicitations", value: 90 },
     { name: "Design Calculatons", value: 75 },
     { name: "Workflows and Process Design", value: 75 },
     { name: "Specification and Design Standard Writing", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 90 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 80 },
-    { name: "Creativity", value: 90 },
+    { name: "Goal-Oriented", value: 77 },
+    { name: "Collaboration", value: 100 },
+    { name: "Positivity", value: 95 },
+    { name: "Adaptability", value: 90 },
+    { name: "Problem Solving", value: 87 },
+    { name: "Mentorship", value: 75 },
+    { name: "Organization", value: 85 },
+    { name: "Creativity", value: 92 },
   ],
 };
 
@@ -139,8 +142,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for small-dollar (<$25,000.00) contracts for construction administration, design, and agency specifications or contract writing opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "cs106607@gmail.com",
+    "I am always excited to make new friends and unsolicited advice is always appreciated.",
+  email: "chris@en-luna.com",
 };
 
 const experiences = {
