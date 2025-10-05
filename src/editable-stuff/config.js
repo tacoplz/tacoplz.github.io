@@ -68,7 +68,7 @@ const about = {
     "I'm currently accepting small contracts for municipal agency projects in Colorado. I'm most proficient in construction management/administration, grant administration, transportation project design, and creating bid packages. I like to challenge myself, so I spent the weekend learning React.js in order to build/deploy this webpage and host my custom email.",
     "Thanks for dropping in. ✌️"
   ],   
-  resume: "https://drive.google.com/file/d/1c9bzfmCowXKO0UGITxOGcNrjmbCu_b6D/view?usp=sharing",
+  resume: "https://en-luna.com/resume.pdf",
   //scheduleEventUrl: "https://calendar.google.com/calendar/u/0/r/eventedit?add=cs106607@gmail.com",
   //The line below embeds my Google Calendar. 
   // calendarUrl: "https://calendar.google.com/calendar/embed?src=cs106607%40gmail.com&ctz=America%2FDenver",
