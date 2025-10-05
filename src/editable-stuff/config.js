@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "En Luna",
   middleName: "",
   lastName: "",
-  message: " Civil and passionate about engineering. ",
+  message: " Civil and passionate about engineering. Based in Colorado.",
   icons: [
     /*{
       image: "fa-github",
@@ -64,7 +64,7 @@ const about = {
   imageLink: require("../editable-stuff/ChrisIsrael.jpg"),
   imageSize: 375,
   message: [
-    "Hello, my name is Chris and I'm a civil engineer (PE) based out of Boulder, Colorado. I have been working as a transportation engineer for the past 10 years, focusing on construction management and grant administration. Prior to that, I was a design engineer, surveyor, and permit writer for solid waste facilities. I have a Master of Science in Civil Engineering with a dual focus in Water Resources and Environmental Engineering. I'm passionate about math, systems, processes, and learning—plus, you know, Colorado things like hiking, snowboarding, camping, and climbing.",
+    "Hello, my name is Chris and I'm a professional engineer based out of Boulder, Colorado. I have been working as a transportation engineer for the past 10 years, focusing on construction management and grant administration. Prior to that, I was a design engineer, surveyor, and permit writer for solid waste facilities. I have a Bachelor and Master of Science in Civil Engineering with a dual focus in Water Resources and Environmental Engineering. I'm passionate about math, systems, processes, and learning—plus, you know, Colorado things like hiking, snowboarding, camping, and climbing.",
     "I'm hoping to find my first contract! I'm really good at construction administration, grant administration, transportation project design, and creating bid packages. I like to challenge myself, so I spent the weekend learning React.js in order to build/deploy this webpage and host my custom email.",
     "Thanks for dropping in. ✌️"
   ],   
@@ -116,14 +116,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Construction Design Plans", value: 75 },
+    { name: "Transportation Design Packages", value: 80 },
     { name: "Construction Administration", value: 95 },
     { name: "Grant Administration", value: 95 },
-    { name: "Construction Management", value: 85 },
-    { name: "Local Agency Procurement & Solicitations", value: 90 },
-    { name: "Design Calculatons", value: 75 },
-    { name: "Workflows and Process Design", value: 75 },
-    { name: "Specification and Design Standard Writing", value: 80 },
+    { name: "Construction Management", value: 90 },
+    { name: "Local Agency Procurement & Solicitations", value: 100 },
+    { name: "Design Calculatons", value: 83 },
+    { name: "Workflows and Process Design", value: 88 },
+    { name: "Design and Construction Specification Packages", value: 92 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 77 },
@@ -150,6 +150,11 @@ const experiences = {
   show: true,
   heading: "Employment and Education",
   data: [
+    {
+      role: 'Engineer Owner - En Luna',// Here Add Company Name
+      companylogo: require('../assets/img/EnLuna_Circle.png'),
+      date: 'December 2024 – Present',
+    },
     {
       role: 'Senior Engineer - City of Aurora',// Here Add Company Name
       companylogo: require('../assets/img/aurora-logo.png'),
