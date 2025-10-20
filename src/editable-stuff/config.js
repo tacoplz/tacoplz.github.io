@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "En Luna",
   middleName: "",
   lastName: "",
-  message: "A civil engineering consulting firm. Based in Boulder, Colorado.",
+  message: "A civil engineering consulting firm. Based in Colorado.",
   icons: [
     /*{
       image: "fa-github",
@@ -65,7 +65,7 @@ const about = {
   imageSize: 375,
   message: [
     "Hello, my name is Chris and I'm a professional engineer based out of Boulder, Colorado. I have been working as a transportation engineer for the past 10 years, focusing on construction management and grant administration. Prior to that, I was a design engineer, surveyor, and permit writer for solid waste facilities. I have a Bachelor and Master of Science in Civil Engineering with a dual focus in Water Resources and Environmental Engineering. I'm passionate about math, systems, processes, and learning—plus, you know, Colorado things like hiking, snowboarding, camping, and climbing.",
-    "I'm currently accepting small contracts for municipal agency projects in Colorado. I'm most proficient in construction management/administration, grant administration, transportation project design, and creating bid packages. I like to challenge myself, so I spent the weekend learning React.js in order to build/deploy this webpage and host my custom email.",
+    "I'm currently accepting small contracts for municipal agency projects in Colorado. I'm most proficient in construction management/administration, grant administration, transportation project design, and creating bid packages. I like to challenge myself, so I learned React.js in order to build and deploy this webpage and host my custom email domain.",
     "Thanks for dropping in. ✌️"
   ],   
   resume: "https://en-luna.com/resume.pdf",
