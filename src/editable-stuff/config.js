@@ -121,7 +121,7 @@ const skills = {
     { name: "Grant Administration", value: 95 },
     { name: "Construction Management", value: 90 },
     { name: "Local Agency Procurement & Solicitations", value: 100 },
-    { name: "Design Calculatons", value: 83 },
+    { name: "Design Calculations", value: 83 },
     { name: "Workflows and Process Design", value: 88 },
     { name: "Design and Construction Specification Packages", value: 92 },
   ],
